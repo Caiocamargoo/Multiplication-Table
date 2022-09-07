@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Multiplication Tabble</title>
+</head>
+<body>
+  <script src="script.js"></script>
+  <div class="celular">
+    <div class="borda-1">
+      <div class="silent"></div>
+      <div class="volume-up"></div>
+      <div class="volume-down"></div>
+      <div class="power"></div>
+      <div class="borda-2">
+        <header>
+          <h1>Olá sou a TableX</h1>
+          <p>Sua Tabela de Multiplicações</p>
+          <span>Vamos começar?</span>
+          <section>
+            <div >
+              <p>
+                Escolha um Numero: <input type="number" name="num" id="num">
+                <button class="gerar" type="button" onclick="gerar()">Gerar Tabuada</button>
+                <button class="limpar" id="clear" type="reset">Limpar Tabuada</button>
+              </p>
+              <div class="test">
+                <select name="tab" id="tab" size="10"></select>
+              </div>
+            </div>
+          </section>
+        </header>
+      </div>
+      <div class="topo">
+        <div class="sensor"></div>
+        <div class="auto-falante"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
